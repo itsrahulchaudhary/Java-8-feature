@@ -1,9 +1,13 @@
 package in.rahulit.beans;
 
 import java.util.Arrays;
+
 import java.util.List;
 import java.util.function.Predicate;
-
+/*
+ *  Write a java program to print person names who are eligible for vote from below 
+ *  persons using Lambda
+ */
 public class PersonNamesPrint {
 
 	public static void main(String[] args) {

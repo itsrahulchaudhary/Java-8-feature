@@ -1,0 +1,16 @@
+
+# Lambda
+# functional
+     - Consumer
+     - Predicate
+     - Supplier
+# stream
+     - Filter -> exp
+     - sort
+     - mapVsflatMap
+     - mapandreduce
+# optional
+# parallelStream
+# exception
+
+
