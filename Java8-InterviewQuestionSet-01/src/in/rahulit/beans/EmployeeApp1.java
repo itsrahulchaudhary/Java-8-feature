@@ -18,9 +18,9 @@ public class EmployeeApp1 {
          */
 		
         //-------------------------------------------------------------------------------
-		
-		// 2. Print the name of all departments in the organization?
 		/*
+		// 2. Print the name of all departments in the organization?
+		
 		   allEmployeeDetails.stream()
 		                     .map(Employee::getDepartment).distinct()
 		                     .forEach(System.out::println);
@@ -29,10 +29,11 @@ public class EmployeeApp1 {
 		//-------------------------------------------------------------------------------
 		
 		// 3. What is the average age of male and female employees?
+		
 		  Map<String, Double> avgAgeOfMaleAndFemaleEmployees = allEmployeeDetails.stream()
 				  .collect(Collectors.groupingBy(Employee::getGender, Collectors.averagingInt(Employee::getAge)));
-		System.out.println("Avg Age Of Male And Female Employees : "+avgAgeOfMaleAndFemaleEmployees);
-
+		  System.out.println("Avg Age Of Male And Female Employees : "+avgAgeOfMaleAndFemaleEmployees);
+        
 	}
 
 }

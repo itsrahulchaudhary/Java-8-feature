@@ -8,7 +8,7 @@ public class PersonsFilters {
 	public static void main(String[] args) {
 		Person p1 = new Person("Raju", 28, "Software");
 		Person p2 = new Person("Mahesh", 29, "Driver");
-		Person p3 = new Person("Ashok", 30, "Teacher");
+		Person p3 = new Person("Sanjay", 30, "Teacher");
 		Person p4 = new Person("Sunil", 27, "Mechanic");
 		Person p5 = new Person("Bharat", 30, "Chef");
 
